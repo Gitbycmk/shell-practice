@@ -1,6 +1,6 @@
 #!/bin/bash
 
-USERID=$(ID -U)
+USERID=$(id -U)
 
 if [ $USERID -ne 0 ]; then
     echo "ERROR:: Please Run This Script with Root Prieledge"
