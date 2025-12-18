@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Aruguments , We can pass so many number of Args
 PERSON1=$1
 PERSON2=$2
 
