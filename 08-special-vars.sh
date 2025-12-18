@@ -2,9 +2,10 @@
 
 echo "All variables passed to the script: $@"
 echo "All variables passed to the script: $*"
-echo "Script Name: $0"
-echo "Current Working Directory: $PWD"
-echo "Who is Running thisv Scripe: $USER"
-echo "Home Directoryof User: $HOME"
-echo "PID of the Script: $$"
-echo
+echo "Script name: $0"
+echo "Current directory: $PWD"
+echo "Who is running this: $USER"
+echo "Home directory of user: $HOME"
+echo "PID of this script: $$"
+sleep 50 &
+echo "PID of the last command in background is: $!"
